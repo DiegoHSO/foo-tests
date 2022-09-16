@@ -30,3 +30,6 @@ jobs:
 
     - name: sanitizer
       run: make sanitizer
+
+    - name: gcov
+      run: make gcov
