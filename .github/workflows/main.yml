@@ -20,16 +20,16 @@ jobs:
         sudo apt-get install valgrind
 
     - name: compile
-      run: initial_compiling
+      run: make initial_compiling
 
     - name: cppcheck
-      run: cppcheck
+      run: make cppcheck
 
     - name: unity
-      run: unity
+      run: make unity
     
     - name: valgrind
-      run: valgrind
+      run: make valgrind
 
     - name: sanitizer
-      run: sanitizer
+      run: make sanitizer
