@@ -25,7 +25,7 @@ ifeq ($(shell uname -s), Darwin)
 C_COMPILER=clang
 endif
 
-UNITY_ROOT=Unity
+UNITY_ROOT=./Unity
 
 CFLAGS=-std=c99
 CFLAGS += -Wall
@@ -57,9 +57,6 @@ SYMBOLS=
 unity: clean compile run
 valgrind: clean valgrind_compile valgrind_run
 sanitizer: clean sanitizer_compile run
-
-initial_compiling: 
-	$(C_COMPILER) $(SRC_FILES1)
 
 cppcheck:
 	cppcheck -enable=all --suppress=missingIncludeSystem foo/src/foo.c

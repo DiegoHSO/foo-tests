@@ -20,7 +20,7 @@ jobs:
         sudo apt-get install valgrind
 
     - name: compile
-      run: make initial_compiling
+      run: make compile
 
     - name: cppcheck
       run: make cppcheck
