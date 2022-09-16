@@ -59,7 +59,7 @@ valgrind: clean valgrind_compile valgrind_run
 sanitizer: clean sanitizer_compile run
 
 cppcheck:
-	cppcheck -enable=all --suppress=missingIncludeSystem foo/src/foo.c
+	cppcheck --enable=all --suppress=missingIncludeSystem foo/src/foo.c
 
 valgrind_compile:
 	$(C_COMPILER) -g -Wall -Wfatal-errors $(SRC_FILES1) -o $(TARGET1)
