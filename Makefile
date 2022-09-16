@@ -43,14 +43,11 @@ INC_DIRS=-Isrc -I$(UNITY_ROOT)/src -I$(UNITY_ROOT)/extras/fixture/src
 SYMBOLS=
 
 unity: clean compile run
-valgrind: clean valgrind_compile valgrind_run
+valgrind: clean compile valgrind_run
 sanitizer: clean sanitizer_compile run
 
 cppcheck:
 	cppcheck --enable=all --suppress=missingIncludeSystem src/foo.c
-
-valgrind_compile:
-	$(C_COMPILER) -g -Wall -Wfatal-errors $(SRC_FILES1) -o $(TARGET1)
 
 valgrind_run:
 	valgrind --leak-check=full --show-leak-kinds=all ./$(TARGET1)
