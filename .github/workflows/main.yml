@@ -19,9 +19,6 @@ jobs:
         sudo apt-get install cppcheck
         sudo apt-get install valgrind
 
-    - name: compile
-      run: make compile
-
     - name: cppcheck
       run: make cppcheck
 
