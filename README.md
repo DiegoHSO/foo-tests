@@ -1,27 +1,27 @@
-Travis Identifier [![License][license-img]][license-url]
+Foo [![License][license-img]][license-url]
 =
-Simple Travis example for C using GCC compiler based on the identifier program presented by Delamaro et al. "Introdução ao Teste de Software". Elsevier. 2007.
+Simple Foo example for C using GCC compiler and test techniques. Made as an exercise for Teste e Confiabilidade de Sistemas class.
 
 Test results:
 
-![status](https://github.com/rafaelgaribotti/travis-identifier/actions/workflows/main.yml/badge.svg)
+![status](https://github.com/DiegoHSO/travis-identifier/actions/workflows/main.yml/badge.svg)
 
 Important files:
-* [identifier.c](identifier.c)
+* [foo.c](foo/src/foo.c)
 * [Makefile](Makefile)
 
 
 Author
 ------
-[**Rafael Garibotti**](https://br.linkedin.com/in/rafaelgaribotti)
+[**Diego Henrique**](https://br.linkedin.com/in/DiegoHSO)
 
 
 License
 -------
 MIT License. See [LICENSE](LICENSE) for details.
 
-[main-url]: https://github.com/rafaelgaribotti/travis-identifier
-[readme-url]: https://github.com/rafaelgaribotti/travis-identifier/blob/main/README.md
-[license-url]: https://github.com/rafaelgaribotti/travis-identifier/blob/main/LICENSE
+[main-url]: https://github.com/DiegoHSO/travis-identifier
+[readme-url]: https://github.com/DiegoHSO/travis-identifier/blob/main/README.md
+[license-url]: https://github.com/DiegoHSO/travis-identifier/blob/main/LICENSE
 [license-img]: https://img.shields.io/github/license/rsp/travis-hello-modern-cpp.svg
-[github-follow-url]: https://github.com/rafaelgaribotti
+[github-follow-url]: https://github.com/DiegoHSO

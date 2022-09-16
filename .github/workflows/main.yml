@@ -13,5 +13,23 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: make
-      run: make
+    
+    - name: dependencies
+      run: |
+        sudo apt-get install cppcheck
+        sudo apt-get install valgrind
+
+    - name: compile
+      run: initial_compiling
+
+    - name: cppcheck
+      run: cppcheck
+
+    - name: unity
+      run: unity
+    
+    - name: valgrind
+      run: valgrind
+
+    - name: sanitizer
+      run: sanitizer
