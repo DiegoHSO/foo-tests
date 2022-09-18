@@ -13,7 +13,7 @@ Important files:
 
 Author
 ------
-[**Diego Henrique Silva Oliveira**](https://br.linkedin.com/in/DiegoHSO)
+[**Diego Henrique Silva Oliveira**](https://br.linkedin.com/in/diego-henrique-oliveira)
 
 
 License
