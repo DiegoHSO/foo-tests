@@ -7,7 +7,7 @@ Test results:
 ![status](https://github.com/DiegoHSO/foo-tests/actions/workflows/main.yml/badge.svg)
 
 Important files:
-* [foo.c](foo/src/foo.c)
+* [foo.c](src/foo.c)
 * [Makefile](Makefile)
 
 
